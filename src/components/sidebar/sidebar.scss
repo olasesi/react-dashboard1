@@ -1,0 +1,26 @@
+.sidebar-wrapper{
+
+    flex:1;
+    height:100vh;
+ 
+   background-image: url("https://wallpapercave.com/wp/fvaX5z9.jpg");
+  
+background-size:cover;
+
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.884);
+
+
+
+  .logo-div{
+      font-weight:600;
+      font-size:30px;
+      text-align: center;
+      margin-top:30px;
+      
+
+
+      .logo-link{
+        color:whitesmoke !important;
+      }
+  }
+}
