@@ -1,0 +1,168 @@
+.header-wrapper{
+display:flex;
+align-items: center;
+justify-content: space-between;
+height:70px;
+
+
+    .search-wrapper{
+        display:flex;
+        align-items: center;
+
+       .more{
+           margin-right:10px;
+           cursor:pointer;
+           transition:all 0.3s ease;
+            text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+             padding:9px;
+           
+           &:hover{
+            color:rgb(175, 64, 64)
+           }
+          
+       }
+
+
+            .search-icon-box{
+                background:rgb(255, 255, 255);
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                display:flex;
+                align-items:center;
+            
+                    
+                    .search-input{
+                            border:none;
+                            height:40px;
+                            border-radius:4px;
+                            padding-left:7px;
+                        font-size:17px;
+                        color:rgb(49, 49, 49);
+
+                        &:focus{
+                            outline:none !important;
+
+                        }
+                        &:hover{
+                            border:none;
+                        }
+                        }
+
+                    .search-icon{
+                        margin:0 7px 0 7px;
+                        cursor:pointer;
+                        transition:all 0.3s ease;
+
+                        &:hover{
+                            color:rgb(175, 64, 64)
+                        }
+                    }
+                }
+
+            }
+
+
+        .icon-wrapper{
+        display:flex;
+        align-items:center;
+       
+            
+            .avartar-wrapper{
+                display:flex;
+                align-items:center;
+                margin-right:70px;
+                
+                .send-button{
+
+                    margin-right:150px;
+                }
+
+
+                .person-image{
+                    border-radius:50%;
+                    width:40px;
+                    height: 40px;
+                    margin-right:10px;
+                    box-shadow: rgba(99, 99, 99, 0.377) 0px 2px 8px 0px;
+                    border:1px solid rgb(43, 43, 43);
+                }
+
+                .person-name{
+
+                    font-size:15px;
+                    color:rgb(37, 37, 37);
+                    font-weight: 600;
+                    text-shadow: 0px 1px 1px rgba(0,0,0,0.4),
+                    0px 3px 3px rgba(0,0,0,0.1),
+                    0px 3px 3px rgba(0,0,0,0.1);
+
+                }
+            }
+        
+            .header-icons{
+
+
+                .icons-material{
+                    margin-right:10px;
+                    cursor:pointer;
+                    transition:all 0.3s ease;
+                    
+                    &:hover{
+                        scale:110%;
+                        color:rgb(95, 69, 241);
+                    }
+                }
+
+                .number-wrapper{
+                    display:flex;
+                    align-items:center;
+                    justify-content: center;
+
+               .message{
+                   
+                    background-color: red;
+                  width:15px;
+                  height:15px;
+                  
+                    position:relative;
+                    left:10px;
+                    top:10px;
+                  border-radius: 50%;
+                    text-align:center;
+                    color:white;
+                    cursor: pointer;
+                    z-index:1000;
+                    font-size:12px;
+
+               }
+
+               .notify{
+                   
+                background-color: red;
+              width:15px;
+              height:15px;
+              
+                position:relative;
+                left:-5px;
+                bottom:-9px;
+              border-radius: 50%;
+                text-align:center;
+                color:white;
+                cursor: pointer;
+                z-index:1000;
+                font-size:12px;
+
+           }
+               
+        }
+            }
+
+
+        
+
+
+        }
+
+
+}
