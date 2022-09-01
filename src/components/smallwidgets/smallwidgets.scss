@@ -1,0 +1,73 @@
+.widgets-wrapper{
+border-radius: 12px;
+
+padding:20px;
+background-color: rgb(151, 199, 255);
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+display:flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom:15px;
+
+.widget-left-part{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+    .header{
+        font-size:15px;
+        text-transform: uppercase;
+        color:rgb(92, 92, 92);
+        font-weight: bold;
+        margin-bottom:14px;
+        }
+        
+  .price-percent{ 
+      
+    
+.price{
+    font-size:27px;
+    font-weight: bolder;
+    color:rgb(17, 17, 17);
+}
+    .price-change{
+        color:rgb(28, 228, 28);
+        font-size:14PX;
+    }
+
+}
+
+.lastmonth{
+margin-top:12px;    
+color:rgb(109, 109, 109);
+font-weight: 500;
+font-size:13px;
+}
+
+
+}
+
+.widget-right-part{
+
+
+    .changes-icon{
+
+   
+.arrow{
+
+    width:30px;
+    height:30px;
+    padding:10px;
+    border-radius: 50%;
+    background-color: rgba(13, 240, 32, 0.336);
+
+}
+
+
+    }
+}
+
+
+
+}

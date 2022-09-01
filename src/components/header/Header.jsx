@@ -1,4 +1,3 @@
-
 import { MoreVert, Search } from "@material-ui/icons"
 import { Apps } from "@material-ui/icons"
 import { NotificationImportant } from "@material-ui/icons"
@@ -23,7 +22,7 @@ function Header() {
 
 <div className="icon-wrapper">
   <div className="avartar-wrapper">
-  <Button variant="contained" endIcon={<Send />} className="send-button">
+  <Button variant="contained" endIcon={<Send />} className="send-button" color="success">
         Send
       </Button>
     <img src="assets/2.jpg" alt="" className="person-image"/>
