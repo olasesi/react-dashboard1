@@ -1,0 +1,94 @@
+[
+    {
+       "title":"Dashboard",
+       "icon":"",
+       "path":"/" 
+    },
+    {
+        "title":"UI Elements", 
+        "icon":"",
+        "children":[{
+            "title":"Buttons",
+            "icon":"",
+            "path":"/ui-elements/buttons"
+        },
+            {
+            "title":"Dropdowns",
+            "icon":"",
+            "path":"/ui-elements/dropdowns"
+        },
+            {
+            "title":"Typography",
+            "icon":"",
+            "path":"/ui-elements/typography"
+        }
+           
+
+    
+    ]
+    },
+    {
+        "title":"Form Elements", 
+        "icon":"",
+        "path":"/" 
+    },
+
+    {
+        "title":"Tables", 
+        "icon":"",
+        "path":"/" 
+    },
+
+    {
+        "title":"Charts", 
+        "icon":"",
+        "path":"/" 
+    },
+
+    {
+        "title":"Icons", 
+        "icon":"",
+        "path":"/" 
+    },
+    {
+        "title":"App pages", 
+        "icon":"",
+        "children":[{
+            "title":"Blank page",
+            "icon":"",
+            "path":"/page1"
+        },
+            {
+            "title":"Error 404",
+            "icon":"",
+            "path":"/page1"
+        },
+            {
+            "title":"Error 500",
+            "icon":"",
+            "path":"/page1"
+        },
+            {
+            "title":"Signup",
+            "icon":"",
+            "path":"/page1"
+        },
+        {
+            "title":"Login",
+            "icon":"",
+            "path":"/page2"
+        }
+        
+
+    
+    ]
+    },
+    {
+        "title":"Documentation", 
+        "icon":"",
+        "path":"/" 
+    }
+
+    
+    
+]
