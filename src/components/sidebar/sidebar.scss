@@ -1,6 +1,12 @@
-.sidebar-wrapper{
 
-    flex:1;
+.sidebar-wrapper.collapse{
+width:10px !important;
+flex:100px;
+}
+
+.sidebar-wrapper{
+transition:all 0.3s ease;
+    flex:330px;
     height:100vh;
  
    background-image: url("https://wallpapercave.com/wp/fvaX5z9.jpg");
@@ -11,10 +17,40 @@ background-size:cover;
 overflow:auto;
 padding-top:30px;
 
+.more-sidebar.collapse{
+  position:relative;
+  left:33%;
+}
+
+.more-sidebar{
+  background-color: rgba(255, 250, 250, 0.863);
+  position:relative;
+  left:200px;
+  cursor:pointer;
+   transition:all 0.3s ease;
+  padding:4px;
+  width:25px;
+  height:25px;
+   border-radius: 50%;
+
+   &:hover{
+    background-color: rgba(163, 147, 255, 0.979);
+    
+   
+
+  }
+}
+
+.name-person.collapse{
+display:none;
+ }
+
 .name-person{
   display:flex;
   flex-direction:column;
   align-items:center;
+
+
 
   .sidebar-image{
     width:70px;
@@ -41,7 +77,17 @@ padding-top:30px;
 
 }
 
+.logo-div.collapse{
+  display:none;
+}
 
+.small-logo{
+  display:none;
+}
+
+.small-logo.collapse{
+  display:contents;
+}
 
   .logo-div{
       font-weight:600;
@@ -51,8 +97,22 @@ padding-top:30px;
       flex-direction: column;
       align-items: center;
 
+      .small-logo{
+        display:none;
+       
+      }
+      
+      .small-logo.collapse{
+        display:contents;
+       
+      }
+      
+
       .logo-link{
-        color:whitesmoke !important;
+        color:rgb(50, 47, 252) !important;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
       }
 
       .sub-name{
@@ -64,6 +124,7 @@ padding-top:30px;
   .item-wrapper{
    
     color:whitesmoke;
+    
   
 
     .section-name{
@@ -77,16 +138,22 @@ padding-top:30px;
 
     .list-item-wrapper{
       list-style: none;
-
+      padding-left: 15px;
+      
+      
 
     .list-item-wrapper-list {
-      padding:10px;
+      padding:15px;
       cursor:pointer;
       display:flex;
       align-items:center;
       justify-content: space-between;
-      transition:all 0.3s ease;
+      
 
+        .icons{
+
+          margin-right:8px;
+        }
      
       
 
@@ -103,8 +170,8 @@ padding-top:30px;
 
 
 .list-item-wrapper-list.open{
-  
-  
+
+
   .toggle.open{
       transform:rotate(90deg);
     }
@@ -118,7 +185,8 @@ padding-top:30px;
 
   .submenu-wrapper{
       display:none;
-      transition:transform 0.7s;
+      transition:display 2s;
+      
     
       .sub-menu-items{
       margin-left:30px;
