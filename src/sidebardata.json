@@ -1,25 +1,25 @@
 [
     {
        "title":"Dashboard",
-       "icon":"",
+       "icon":"bi-speedometer",
        "path":"/" 
     },
     {
         "title":"UI Elements", 
-        "icon":"",
+        "icon":"bi-list-ul",
         "children":[{
             "title":"Buttons",
-            "icon":"",
+            "icon":"bi-menu-button-wide",
             "path":"/ui-elements/buttons"
         },
             {
             "title":"Dropdowns",
-            "icon":"",
+            "icon":"bi-menu-down",
             "path":"/ui-elements/dropdowns"
         },
             {
             "title":"Typography",
-            "icon":"",
+            "icon":"bi-justify-left",
             "path":"/ui-elements/typography"
         }
            
@@ -29,53 +29,53 @@
     },
     {
         "title":"Form Elements", 
-        "icon":"",
-        "path":"/" 
+        "icon":"bi-ui-checks",
+        "path":"/forms" 
     },
 
     {
         "title":"Tables", 
-        "icon":"",
-        "path":"/" 
+        "icon":"bi-table",
+        "path":"/tables" 
     },
 
     {
         "title":"Charts", 
-        "icon":"",
-        "path":"/" 
+        "icon":"bi-bar-chart-line-fill",
+        "path":"/charts" 
     },
 
     {
         "title":"Icons", 
-        "icon":"",
-        "path":"/" 
+        "icon":"bi-star-fill",
+        "path":"/icons" 
     },
     {
         "title":"App pages", 
-        "icon":"",
+        "icon":"bi-file-break-fill",
         "children":[{
             "title":"Blank page",
-            "icon":"",
+            "icon":"bi-file-earmark-break",
             "path":"/page1"
         },
             {
             "title":"Error 404",
-            "icon":"",
+            "icon":"bi-bug",
             "path":"/page1"
         },
             {
             "title":"Error 500",
-            "icon":"",
+            "icon":"bi-bug-fill",
             "path":"/page1"
         },
             {
             "title":"Signup",
-            "icon":"",
+            "icon":"bi-check-circle-fill",
             "path":"/page1"
         },
         {
             "title":"Login",
-            "icon":"",
+            "icon":"bi-door-open",
             "path":"/page2"
         }
         
@@ -85,7 +85,7 @@
     },
     {
         "title":"Documentation", 
-        "icon":"",
+        "icon":"bi-journal-bookmark-fill",
         "path":"/" 
     }
 

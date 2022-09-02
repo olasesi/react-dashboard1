@@ -15,7 +15,7 @@ const Home = () => {
       <Header/>
       <div className="content-wrapper">
 <div className="top-part">
-    {/* <div className="left-part">
+    <div className="left-part">
       <div className="two-left-widgets">
         <Smallwidgets className="widget-style"/>
         <Smallwidgets className="widget-style"/>
@@ -31,11 +31,11 @@ const Home = () => {
   
   <div className="right-part">
 <Chart/>
-  </div> */}
+  </div> 
 </div>
 
 
-{/* <div className="bottom-part">
+ <div className="bottom-part">
 
 <div className="table">
 <Tablehome/>
@@ -44,7 +44,7 @@ const Home = () => {
 <Piecharts/>
 </div>
 
-</div> */}
+</div> 
 
       </div>
       </div>

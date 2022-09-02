@@ -11,19 +11,23 @@ function Sidebaritem({item}) {
   if(item.children){
 
     return (
+      
         <div className="list-item-wrapper">
         <div className={open ? "list-item-wrapper-list open":"list-item-wrapper-list"}>
         
-          <span> {item.title}</span>
+          <span><i className={`bi ${item.icon} icons`}></i> {item.title}</span>
           <ChevronRight className="toggle open" onClick={()=>setOpen(!open)}/>
           </div> 
+          
+        
           <div className={open ? "submenu-wrapper open": "submenu-wrapper"}>
           {
           item.children.map((submenu, index)=><Sidebaritem key={index} item={submenu} />)}
               <span>{item.children.title}</span>
           </div>
-      
+    
         </div>
+        
         
       )
 
@@ -32,7 +36,7 @@ function Sidebaritem({item}) {
         <div className="list-item-wrapper">
         <div className="list-item-wrapper-list">
         
-          <span>{item.title}</span>
+        <span><i className={`bi ${item.icon} icons`}></i>{item.title}</span>
           
           </div> 
           

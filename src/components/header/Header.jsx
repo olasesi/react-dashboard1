@@ -1,19 +1,26 @@
-import { MoreVert, Search } from "@material-ui/icons"
+import { Search } from "@material-ui/icons"
 import { Apps } from "@material-ui/icons"
 import { NotificationImportant } from "@material-ui/icons"
 import { Settings } from "@material-ui/icons"
 import { Message } from "@material-ui/icons"
 import Button from '@mui/material/Button';
 import { Send } from "@material-ui/icons"
+import {useState} from 'react'
 
 import "./header.scss"
 
 function Header() {
+// const [collapse, setCollapse] = useState(false)
+
+// function mobile(){
+//   setCollapse(!collapse)
+// }
+
   return (
     <div className="header-wrapper">
 <div className="search-wrapper">
     
-<MoreVert className="more"/>
+
 
     <div className="search-icon-box">
     <input name="" placeholder="Search products" className="search-input"/><Search className="search-icon"/>
