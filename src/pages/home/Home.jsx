@@ -21,7 +21,7 @@ const Home = () => {
         <Smallwidgets header="Customers" price="4,000" className="widget-style" changes="increase" percentage="+2.5%"/>
         <Smallwidgets  header="Conversions" className="widget-style" price="6,000" changes="decrease" percentage="-2.0%"/>
       </div>
-      <div className="right-left-widgets">
+      <div className="two-right-widgets">
         <Smallwidgets header="Orders" className="widget-style" price="2,000" changes="decrease" percentage="-3.5%"/>
         <Smallwidgets header="Earnings" className="widget-style" price="4,000" changes="increase" percentage="+2.2%"/>
       </div>
@@ -31,7 +31,8 @@ const Home = () => {
   
   
   <div className="right-part">
-<Chart/>
+  <div className="header">Analytics</div>
+ <Chart /> 
   </div> 
 </div>
 
