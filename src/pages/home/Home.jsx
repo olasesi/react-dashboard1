@@ -7,6 +7,9 @@ import Smallwidgets from "../../components/smallwidgets/Smallwidgets"
 import Chart from "../../components/chart/Chart"
 import Tablehome from "../../components/table/Tablehome"
 import Piecharts from "../../components/piechart/Piecharts"
+import Mixbarchart from "../../components/mixbarchart/Mixbarchart"
+import Stackedbarchart from "../../components/stackedbarchart/Stackedbarchart"
+import Tinybarchart from "../../components/tinybarchart/Tinybarchart"
 
 const Home = () => {
   return (
@@ -47,6 +50,13 @@ const Home = () => {
 </div>
 
 </div> 
+
+<div className="bar-charts-wrapper">
+  <div className="bar-1"><Mixbarchart/></div>
+  <div className="bar-2"><Stackedbarchart/></div>
+  <div className="bar-3"><Tinybarchart/></div>
+</div>
+
 
       </div>
       </div>
