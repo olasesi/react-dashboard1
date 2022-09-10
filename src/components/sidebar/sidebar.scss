@@ -1,21 +1,27 @@
 
 .sidebar-wrapper.collapse{
-width:10px !important;
+width:70px !important;
 flex:100px;
 }
 
 .sidebar-wrapper{
+width:280px;
 transition:all 0.3s ease;
-    flex:330px;
-    height:100vh;
- 
-   background-image: url("https://wallpapercave.com/wp/fvaX5z9.jpg");
+    // flex:330px;
+background-image: url("https://wallpapercave.com/wp/fvaX5z9.jpg");
   
 background-size:cover;
-
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.884);
+box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.884);
 overflow:auto;
 padding-top:30px;
+height: 100vh;
+// scrollbar-width: thin;
+
+.collapse-person{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
 
 .more-sidebar.collapse{
   position:relative;
@@ -24,8 +30,8 @@ padding-top:30px;
 
 .more-sidebar{
   background-color: rgba(255, 250, 250, 0.863);
-  position:relative;
-  left:200px;
+  // position:relative;
+  // left:200px;
   cursor:pointer;
    transition:all 0.3s ease;
   padding:4px;
@@ -45,11 +51,30 @@ padding-top:30px;
 display:none;
  }
 
+ .name-person-small.collapse{
+    display:block;
+    
+ }
+
+
+ .name-person-small{
+  display:none;
+ }
+
+  .sidebar-image-small{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   margin-bottom:15px;
+   border:2px solid cornflowerblue;
+   margin-top:40px;
+  }
+
 .name-person{
   display:flex;
   flex-direction:column;
   align-items:center;
-
+margin-top:30px;
 
 
   .sidebar-image{
@@ -83,6 +108,11 @@ display:none;
 
 .small-logo{
   display:none;
+
+  .logo-mobile{
+width:30px;
+height:30px;
+  }
 }
 
 .small-logo.collapse{
@@ -125,7 +155,6 @@ display:none;
    
     color:whitesmoke;
     
-  
 
     .section-name{
       color:rgb(100, 100, 100);
@@ -135,12 +164,32 @@ display:none;
       font-variant: small-caps;
     }
 
+    .list-item-wrapper.mobile-icons{
+     
+      padding: 0;
+    }
+
+    .list-item-wrapper-list.mobile-icons {
+      
+margin:0;
+padding:0;
+    }
+
+.title.mobile-icons{
+  display:none;
+}
+
+.icons.mobile-icons{
+  font-size: 200%;
+}
+
+
 
     .list-item-wrapper{
       list-style: none;
       padding-left: 15px;
-      
-      
+    
+     
 
     .list-item-wrapper-list {
       padding:15px;
@@ -149,7 +198,7 @@ display:none;
       align-items:center;
       justify-content: space-between;
       
-
+   
         .icons{
 
           margin-right:8px;

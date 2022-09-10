@@ -3,7 +3,7 @@ import "./sidebar.scss"
 import { ChevronRight } from "@material-ui/icons"
 
 
-function Sidebaritem({item}) {
+function Sidebaritem({item, mobile}) {
 
     const [open, setOpen] = useState(false)
  
@@ -12,10 +12,10 @@ function Sidebaritem({item}) {
 
     return (
       
-        <div className="list-item-wrapper">
+        <div className={`list-item-wrapper ${mobile}`}>
         <div className={open ? "list-item-wrapper-list open":"list-item-wrapper-list"}>
         
-          <span><i className={`bi ${item.icon} icons`}></i> {item.title}</span>
+          <span><i className={`bi ${item.icon} icons ${mobile}`}></i><span className={`title ${mobile}`}>{item.title}</span></span>
           <ChevronRight className="toggle open" onClick={()=>setOpen(!open)}/>
           </div> 
           
@@ -33,10 +33,10 @@ function Sidebaritem({item}) {
 
   }else{
     return (
-        <div className="list-item-wrapper">
-        <div className="list-item-wrapper-list">
+        <div className={`list-item-wrapper ${mobile}`} data-title={item.title}>
+        <div className={`list-item-wrapper-list ${mobile}`}>
         
-        <span><i className={`bi ${item.icon} icons`}></i>{item.title}</span>
+        <span><i className={`bi ${item.icon} icons ${mobile}`}></i><span className={`title ${mobile}`}>{item.title}</span></span>
           
           </div> 
           
