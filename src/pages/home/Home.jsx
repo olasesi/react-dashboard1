@@ -1,6 +1,4 @@
 import React from 'react'
-import Sidebar from "../../components/sidebar/Sidebar"
-import Header from "../../components/header/Header"
 import "./home.scss"
 import Smallwidgets from "../../components/smallwidgets/Smallwidgets"
 import Chart from "../../components/chart/Chart"
