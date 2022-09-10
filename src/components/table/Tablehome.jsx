@@ -38,7 +38,7 @@ const rows = [
 
 function Tablehome() {
   return (
-    <div style={{ height: 400, width: '100%' }}>
+    <div style={{ height: 400, width: '100%' }} className="">
       <DataGrid
         rows={rows}
         columns={columns}
