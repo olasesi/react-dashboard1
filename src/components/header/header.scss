@@ -153,4 +153,85 @@ height:70px;
         }
 
 
+
+       
+
+}
+
+.header-bottom{
+    padding-top:20px;
+    padding-bottom:10px;
+    display:flex;
+   margin-left:40px;
+   margin-right:40px;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-bottom-header-header{
+        color:rgb(66, 66, 66);
+        font-size:28px;
+
+        .left-bottom-header-span{
+            color:rgb(112, 112, 112);
+        }
+
+    }
+
+    .right-bottom-header{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        
+        .sales-number{
+            color:rgb(73, 73, 73);
+            font-size:20px;
+        }
+
+
+        .left{
+            display:flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: center;
+            margin-right:55px;
+            .rating{
+                display:flex;
+
+
+                .rating-number{
+                    color:rgb(139, 139, 139);
+                    font-size:14px;
+                    margin-left:4px;
+                }
+            }
+        }
+
+        .middle{
+            display:flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: center;
+            margin-right:55px;
+        }
+
+        .right{
+            display:flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: center;
+            margin-right:55px;
+        }
+
+
+
+
+    }
+
+    .subheading{
+        color:rgb(139, 139, 139);
+        margin-bottom:5px;
+    }
+
+
+
 }
